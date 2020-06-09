@@ -1,21 +1,27 @@
-<!-- <%- include ('../partials/header') %> 
-<div class="container">
-    <hi>Thing</hi>
-    <p>the thing</p>
-</div>
-<%- include ('../partials/footer') %>  -->
-
 <html>
     <head>
-        <title>About me</title>
+        <title>Contact Page</title>
     
     </head>
 
     <header>
-        <h1>All About Me</h1>
+        <h1>Hi guys, My name is Carl Zeng, I'm from China. I am study for COPA in Georgian College and I'm currently in semster 5. I'm a big sneaker fan. I enjoy coding and hope I can figure out my own sneaker bot someday. Leave your message below if u wanna me to know you.</h1>
     </header>
 
-    <div>
-        <p>The autobiography of Carl Zeng</p>
-    </div>
+    <div class="container">
+        <form action="contact_page">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your firstname here">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your lastname here">
+      
+          <label for="email">E-mail</label>
+          <input id="email" name="email" placeholder="Enter your E-mail here"></input>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </html>

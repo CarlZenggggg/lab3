@@ -10,5 +10,4 @@ exports.about = (req, res) => {
 
 exports.contact = (req, res) => {
     res.render(`${viewPath}/contact`);
-      pageTitle: 'Contact Info'
 };
